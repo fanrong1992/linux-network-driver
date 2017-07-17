@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DIP	TCP.c	/^static char *DIP="192.168.1.167";$/;"	v	file:
+DPORT	TCP.c	/^static int DPORT=80; $/;"	v	file:
+DST_MAC	TCP.c	28;"	d	file:
+IF_NAME	TCP.c	26;"	d	file:
+KERNEL_BUILD	Makefile	/^KERNEL_BUILD:=\/usr\/src\/linux-headers-$(shell uname -r)$/;"	m
+SIP	TCP.c	/^static char *SIP="5.5.5.5"; $/;"	v	file:
+SPORT	TCP.c	/^static int  SPORT=0;$/;"	v	file:
+SRC_MAC	TCP.c	27;"	d	file:
+STOP	TCP.c	/^static volatile u32 STOP=0;$/;"	v	file:
+check	TCP.c	/^static volatile int check=0;$/;"	v	file:
+create_skb	TCP.c	/^static struct sk_buff*  create_skb(int Rsip \/* Fake Source IP *\/ ){$/;"	f	file:
+data_len	TCP.c	/^int data_len=0; $/;"	v
+netdev	TCP.c	/^static struct net_device *netdev=NULL;$/;"	v	typeref:struct:net_device	file:
+num	TCP.c	/^static  int num = 0;$/;"	v	file:
+obj-m	Makefile	/^obj-m:=TCP.o$/;"	m
+pkt_xmit1	TCP.c	/^static struct sk_buff_head pkt_xmit1;$/;"	v	typeref:struct:sk_buff_head	file:
+send_exit	TCP.c	/^module_exit(send_exit);$/;"	v
+send_exit	TCP.c	/^static void __exit send_exit(void){$/;"	f	file:
+send_init	TCP.c	/^module_init(send_init);$/;"	v
+send_init	TCP.c	/^static int __init send_init(void){$/;"	f	file:
+sock	TCP.c	/^struct socket *sock;$/;"	v	typeref:struct:socket
+sock_init	TCP.c	/^static void sock_init(void){$/;"	f	file:
+start_done	TCP.c	/^static struct completion start_done[3];$/;"	v	typeref:struct:completion	file:
+times	TCP.c	/^static  int times=20;$/;"	v	file:
+tm	TCP.c	/^struct rtc_time tm;$/;"	v	typeref:struct:rtc_time
+try1	TCP.c	/^static int try1(void *arg){$/;"	f	file:
+try2	TCP.c	/^static int try2(void *arg){$/;"	f	file:
+try3	TCP.c	/^static int try3(void *arg){$/;"	f	file:
+txc	TCP.c	/^struct timex txc;$/;"	v	typeref:struct:timex
+xmit_stop	TCP.c	/^static volatile u32 xmit_stop[3]={0x0,0x0,0x0};$/;"	v	file:
+xmit_thread	TCP.c	/^static struct task_struct *xmit_thread[3]={NULL,NULL,NULL};$/;"	v	typeref:struct:task_struct	file:
